@@ -1,0 +1,9 @@
+# nixpacks.toml
+[phases.setup]
+  nixPkgs = ['nodejs_20']   # or nodejs_18, etc. — matches your engines.node
+
+[phases.install]
+  cmds = ['npm install']     # Forces npm install instead of npm ci
+
+[start]
+  cmd = 'npm start'
