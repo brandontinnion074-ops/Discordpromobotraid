@@ -11,6 +11,6 @@
     "discord.js": "^14.15.0"
   },
   "engines": {
-    "node": "20.x"   // or 18.x — Railway supports recent versions
+    "node": "20.x"
   }
 }
